@@ -247,7 +247,7 @@ img {
   min-width: 260px;
   max-width: 400px;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 32px;
   background-color: var(--couleur-blanc);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
@@ -401,12 +401,9 @@ img {
   text-align: center;
   padding: 20px;
 }
-main{
+.mproduits{
   background-color: #2C4326;
 }
-.cartes1 .img{
-  background-size: cover;
-  height: 240px;
-}
+
 
 
