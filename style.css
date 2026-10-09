@@ -404,3 +404,17 @@ img {
 .mproduits{
   background-color: #2C4326;
 }
+.info{
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 400px;
+}
+.produits{
+  color: #FFFFFF;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
