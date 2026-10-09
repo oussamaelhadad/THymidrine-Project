@@ -4,20 +4,19 @@
 
 /* Couleurs et polices de la charte */
 :root {
-  --couleur-thym: #3E5C35;
-  --couleur-thym-fonce: #2C4326;
-  --couleur-miel: #E0A501;
-  --couleur-figue: #8A2859;
-  --couleur-lin: #E3D5B8;
-  --couleur-sable: #F3EAD7;
-  --couleur-terre: #2B2118;
-  --couleur-terre-douce: #5C4F42;
-  --couleur-blanc: #FFFFFF;
+  --couleur-thym: #3e5c35;
+  --couleur-thym-fonce: #2c4326;
+  --couleur-miel: #e0a501;
+  --couleur-figue: #8a2859;
+  --couleur-lin: #e3d5b8;
+  --couleur-sable: #f3ead7;
+  --couleur-terre: #2b2118;
+  --couleur-terre-douce: #5c4f42;
+  --couleur-blanc: #ffffff;
 
-  --police-titre: 'Lora', Georgia, serif;
-  --police-texte: 'Source Sans 3', Arial, sans-serif;
+  --police-titre: "Lora", Georgia, serif;
+  --police-texte: "Source Sans 3", Arial, sans-serif;
 }
-
 
 /* ----- Base ----- */
 
@@ -65,7 +64,7 @@ a {
 }
 
 img {
- border-radius: 30px;
+  border-radius: 30px;
   display: block;
   width: 100%;
   height: auto;
@@ -97,7 +96,6 @@ img {
   font-weight: 600;
 }
 
-
 /* ----- En-tête ----- */
 
 .entete {
@@ -128,7 +126,7 @@ img {
 
 .logo img {
   width: 200px;
-  height: auto ;
+  height: auto;
 }
 
 .menu {
@@ -155,7 +153,6 @@ img {
   background-color: var(--couleur-thym);
   color: var(--couleur-blanc);
 }
-
 
 /* ----- Boutons ----- */
 
@@ -193,7 +190,6 @@ img {
   background-color: var(--couleur-lin);
 }
 
-
 /* ----- Bandeau d'accroche ----- */
 
 .hero {
@@ -224,13 +220,11 @@ img {
   margin-top: 40px;
 }
 
-
 /* ----- Présentation ----- */
 
 .presentation {
   max-width: 768px;
 }
-
 
 /* ----- Cartes produits ----- */
 
@@ -273,7 +267,6 @@ img {
   color: var(--couleur-terre-douce);
 }
 
-
 /* ----- Appel à l'action ----- */
 
 .appel {
@@ -291,7 +284,6 @@ img {
   max-width: 576px;
   margin: 0 auto 24px;
 }
-
 
 /* ----- Pied de page ----- */
 
@@ -346,7 +338,6 @@ img {
   text-align: center;
 }
 
-
 /* ----- Ordinateur : à partir de 1024 px de large ----- */
 
 @media (min-width: 1024px) {
@@ -376,7 +367,6 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-
   }
 
   .hero-texte,
@@ -388,33 +378,34 @@ img {
     margin-top: 0;
   }
 }
-.section1{
+.section1 {
   text-align: center;
   line-height: 1.5;
-  background-color: #E0A501;
+  background-color: #e0a501;
 }
-.cartes1{
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
+.cartes1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
-  justify-self:center ;
+  justify-self: center;
   text-align: center;
   padding: 20px;
 }
-.mproduits{
-  background-color: #2C4326;
+.mproduits {
+  background-color: #2c4326;
 }
-.info{
-  color: #FFFFFF;
+.total-info {
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   min-height: 400px;
+  flex-direction: column;
 }
-.produits{
-  color: #FFFFFF;
-  display: flex;
-  align-items:center;
-  justify-content: center;
+
+.subtotal{
+display: flex;
+flex-direction: column;
 }
+
