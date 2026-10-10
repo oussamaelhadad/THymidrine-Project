@@ -408,4 +408,32 @@ img {
 display: flex;
 flex-direction: column;
 }
-
+.sectionapropos-contenu{
+  color: #2c4326;
+  background-color: #e0a501;
+  border-radius: 15px;
+  height: 2;
+}
+.imgpropos{
+  display: flex;
+  
+ justify-content: center;
+}
+.sectionapropos{
+background-color: #3e5c35;
+margin-top: 0;
+}
+.h1-apropos{
+  color: #e0a501;
+  display: flex;
+  justify-content: center;
+}
+.btn-submit{
+  color: #e0a501;
+  border-radius:15px;
+  background-color:transparent ;
+  border-color: #e0a501;
+  height: 50px;
+  width: 120;
+  margin: 15px;
+}
