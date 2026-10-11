@@ -320,16 +320,6 @@ img {
   font-style: normal;
 }
 
-.pied ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.pied li {
-  margin-bottom: 4px;
-}
-
 .copyright {
   margin: 40px 0 0;
   padding: 16px;
@@ -339,6 +329,70 @@ img {
 }
 
 /* ----- Ordinateur : à partir de 1024 px de large ----- */
+.section1 {
+  text-align: center;
+  line-height: 1.5;
+  background-color: #e0a501;
+}
+
+.cartes1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  justify-self: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.mproduits {
+  min-height: 75vh;
+  background-color: #2c4326;
+}
+
+.total-info {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.sectionapropos-contenu{
+  color: #2c4326;
+  background-color: #e0a501;
+  border-radius: 15px;
+}
+
+.imgpropos{
+  display: flex;
+  
+ justify-content: center;
+}
+
+.sectionapropos{
+background-color: #3e5c35;
+margin-top: 0;
+}
+
+.h1-apropos{
+  color: #e0a501;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit{
+  color: #e0a501;
+  border: 4px solid #e0a501;
+  border-radius:15px;
+  background-color:transparent ;
+  height: 50px;
+  width: 120;
+  margin: 15px;
+}
+
+.nom, .mail, .ads, .tele, .mes, .produits{
+  padding: 20px;
+}
 
 @media (min-width: 1024px) {
   h1 {
@@ -378,62 +432,20 @@ img {
     margin-top: 0;
   }
 }
-.section1 {
-  text-align: center;
-  line-height: 1.5;
-  background-color: #e0a501;
-}
-.cartes1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
-  justify-self: center;
-  text-align: center;
-  padding: 20px;
-}
-.mproduits {
-  background-color: #2c4326;
-}
-.total-info {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 400px;
-  flex-direction: column;
+@media (max-width: 1024px) {
+  .cartes1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
 }
 
-.subtotal{
-display: flex;
-flex-direction: column;
-}
-.sectionapropos-contenu{
-  color: #2c4326;
-  background-color: #e0a501;
-  border-radius: 15px;
-  height: 2;
-}
-.imgpropos{
+.info{
   display: flex;
-  
- justify-content: center;
+  min-width: 50vh;
 }
-.sectionapropos{
-background-color: #3e5c35;
-margin-top: 0;
-}
-.h1-apropos{
-  color: #e0a501;
+
+.livrimg{
   display: flex;
-  justify-content: center;
-}
-.btn-submit{
-  color: #e0a501;
-  border-radius:15px;
-  background-color:transparent ;
-  border-color: #e0a501;
-  height: 50px;
-  width: 120;
-  margin: 15px;
+  justify-self: flex-end;
 }

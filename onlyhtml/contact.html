@@ -27,13 +27,12 @@
   </header>
   <main class="mproduits">
     <div class="total-info">
-     <div class="subtotal">
-    <div class="info">
-      <form method="post">
+       <div class="info">
+         <form method="post">
       
-        <div class="nom">
-      <input type="text" id="name" name="name" placeholder="Nom et prenom">
-      </div>
+          <div class="nom">
+            <input type="text" id="name" name="name" placeholder="Nom et prenom">
+          </div>
 
       <div class="mail">
       <input type="email" id="email" name="emai" placeholder="Email" required>
@@ -50,22 +49,19 @@
       <div class="mes">
       <input type="text" name="message" placeholder="message" required>
       </div>
+   
+       <label for="produits">produits:</label>
+       <select id="produits" name="produit">
+        <option value="meil de thym">Meil de thym</option>
+        <option value="meil d'orange">Meil d'orange</option>
+       <option value="congfiture" selected>Congfiture de figue barbarie</option>
+       <option value="jus" selected>Jus de figue barbarie</option>
+       <option value="hueil" selected>Hueil d'olive</option>
+       <option value="amlou" selected>Amlou artisanal</option>
+</select>
+  <button type="submit" class="btn-submit" >passer commande</button>
     </div>
-
-    <div class="produits">
-  <label for="produits">produits:</label>
-  <select id="produits" name="produit">
-    <option value="meil de thym">Meil de thym</option>
-    <option value="meil d'orange">Meil d'orange</option>
-    <option value="congfiture" selected>Congfiture de figue barbarie</option>
-    <option value="jus" selected>Jus de figue barbarie</option>
-    <option value="hueil" selected>Hueil d'olive</option>
-    <option value="amlou" selected>Amlou artisanal</option>
-  </select>
-    </div>
-    <button type="submit" class="btn-submit" >passer commande</button>
-    </form>
-     </div>
+  </form>
      </div>
   </main>
   <!-- Pied de page : le même sur toutes les pages -->
