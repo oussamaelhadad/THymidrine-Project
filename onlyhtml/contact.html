@@ -25,30 +25,30 @@
       </nav>
     </div>
   </header>
-  <main class="mproduits">
-    <div class="total-info">
+  <main class="mproduits" id="contactmain">
        <div class="info">
+        <h2 id="formtitle">veillez remplir cette formule</h2>
          <form method="post">
       
-          <div class="nom">
-            <input type="text" id="name" name="name" placeholder="Nom et prenom">
-          </div>
+          <label class="nom">
+            <input type="text" id="name" name="name" placeholder="Nom et prenom" required>
+          </label>
 
-      <div class="mail">
+      <label class="mail">
       <input type="email" id="email" name="emai" placeholder="Email" required>
-      </div>
+      </label>
 
-      <div class="ads">
+      <label class="ads">
       <input type="text"  name="adresse" placeholder="adresse" required>
-      </div>
+      </label>
 
-      <div class="tele">
+      <label class="tele">
       <input type="tel" name="numero de tele" placeholder="numero de tele" required>
-      </div>
+      </label>
 
-      <div class="mes">
-      <input type="text" name="message" placeholder="message" required>
-      </div>
+      <label class="mes">
+      <textarea type="text" name="message" placeholder="message" required></textarea>
+      </label>
    
        <label for="produits">produits:</label>
        <select id="produits" name="produit">
@@ -60,7 +60,6 @@
        <option value="amlou" selected>Amlou artisanal</option>
 </select>
   <button type="submit" class="btn-submit" >passer commande</button>
-    </div>
   </form>
      </div>
   </main>
